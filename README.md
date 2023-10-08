@@ -1,8 +1,12 @@
 # figure_calculation
 
+В терминале: 
+
 1. Клонируем проект: git clone https://github.com/OlzhasKALIEV/figure_calculation.git
-2. Установка зависимостей: pip install -r .\requirements.txt
-3. Запуск сервера: python .\app.py run
+2. Создать ВО: python -m venv venv
+3. Запуск ВО: .\venv\Scripts\activate
+4. Установка зависимостей: pip install -r .\requirements.txt
+5. Запуск сервера: python .\app.py run
 
 
 Калькулятор для вычисления площади треугольника по трем сторонам и площади круга
